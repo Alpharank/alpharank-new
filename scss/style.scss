@@ -1,0 +1,334 @@
+@import "bootstrap.min";
+@import "bootstrap-theme.min";
+@import "font-awesome.min";
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-size: 10px;
+}
+p {
+	letter-spacing: 0.5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font-size: 58px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.btn-primary {
+    margin: 10px;
+    width: 200px;
+    background: transparent;
+    font-size: 2rem;
+    padding: 12px 34px;
+    border-color: #fff;
+    font-family: Montserrat, sans-serif;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    &:hover,
+    &:focus {
+    	border-color: #13B28B;
+    	background: #13B28B;
+    	color: #fff;
+    }
+    .fa {
+	    position: relative;
+	    font-size: 24px;
+	    margin-right: 10px;
+	    top: 2px;
+    }
+}
+.form-control:focus {
+	border-color: #13B28B;
+}
+.header {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/*==========================================================*/
+// Navigation
+/*==========================================================*/
+.main-nav {
+	position: fixed;
+	float: left;
+	margin-top: 2rem;
+	z-index: 1;
+	ul {
+		list-style: none;
+		li {
+			.nav-links {
+				display: block;
+				padding: 17px 0;
+				color: transparent;
+				text-decoration: none;
+			    -webkit-transition: padding-left 0.25s cubic-bezier(0, 0.615, 0.085, 0.705);
+			    transition: padding-left 0.25s cubic-bezier(0, 0.615, 0.085, 0.705);
+				.fa {
+					margin-right: 8px;
+					color: #fff;
+					font-size: 3rem;
+				}
+				span {
+					font-size: 1.4rem;
+				    font-weight: 700;
+				    letter-spacing: 0.5px;
+			        -webkit-transition: color 0.25s cubic-bezier(0, 0.615, 0.085, 0.705), padding-left 0.25s cubic-bezier(0, 0.615, 0.085, 0.705);
+    				transition: color 0.25s cubic-bezier(0, 0.615, 0.085, 0.705), padding-left 0.25s cubic-bezier(0, 0.615, 0.085, 0.705);
+				}
+				&:hover,
+				&:focus {
+					padding-left: 8px;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+/*==========================================================*/
+// Video
+/*==========================================================*/
+#bgvid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background: url('../images/brian_ley.png') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
+}
+.vids-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 29, 34, 0.75);
+    z-index: -1;
+}
+/*==========================================================*/
+// Hero Text
+/*==========================================================*/
+.hero-container {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    transform: translateY(-50%);
+    p {
+    	margin: 27px 0;
+    	font-size: 2.4rem;
+    }
+}
+.it {
+	font-weight: normal;
+}
+
+/*==========================================================*/
+// Networks matter
+/*==========================================================*/
+.sect-networks {
+	padding: 100px 0;
+	h2 {
+		margin: 0 auto 50px;
+	    width: 600px;
+	    text-align: center;
+	}
+}
+.net-blocks {
+	text-align: center;
+	h3 {
+		margin: 35px auto 20px;
+	    letter-spacing: -1px;
+	    font-weight: 700;
+	    word-spacing: 3px;
+	    color: #505050;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+}
+.icon-container {
+	margin: 0 auto;
+	width: 165px;
+	text-align: center;
+}
+#svg-cog path {
+	stroke-dasharray: 1653.1617431640625;
+	stroke-dashoffset: -1653.1617431640625;
+	fill: transparent;
+    animation: cog-lines 2s linear forwards, spin 6s linear infinite;
+}
+#svg-cog circle {
+	stroke-dasharray: 509;
+	stroke-dashoffset: -509;
+	fill: transparent;
+    animation: circle-lines 2s linear forwards;
+}
+.sect-company {
+	padding: 100px 0;
+	position: relative;
+	background: #333;
+	.clients {
+		padding: 5rem;
+	}
+}
+.dots-canvas{
+  position: absolute;
+  width: 100%; height: 100%;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+.sect-contacts {
+	background: #282F2D;
+	color: #fff;
+	h3 {
+		margin-bottom: 30px;
+		text-align: center;
+		font-size: 3.4rem;
+	}
+}
+#map {
+	margin-bottom: 50px;
+	width: 100%;
+	height: 450px;
+	background: #ccc;
+}
+#contact_form {
+	text-align: center;
+	.form-control {
+	    padding: 6px 20px 6px 25px;
+		height: 50px;
+		letter-spacing: 2px;
+		font-family: Montserrat, sans-serif;
+	}
+	textarea.form-control {
+		height: auto;
+	}
+	#submit {
+		margin: 20px auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================================*
+	Keyframes Cog Lines
+/*===============================================================*/
+@keyframes cog-lines {
+	0% {
+		stroke-dashoffset: 1653.1617431640625;
+	}
+	90% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		fill: #8B8996;
+		stroke: #8B8996;
+	}
+}
+@-webkit-keyframes cog-lines {
+	0% {
+		stroke-dashoffset: 1653.1617431640625;
+	}
+	90% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		fill: #8B8996;
+		stroke: #8B8996;
+	}
+}
+@-moz-keyframes cog-lines {
+	0% {
+		stroke-dashoffset: 1653.1617431640625;
+	}
+	90% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-dashoffset: 0;
+		fill: #8B8996;
+		stroke: #8B8996;
+	}
+}
+/*===============================================================*
+	Keyframes Circle Lines
+/*===============================================================*/
+@keyframes circle-lines {
+	from {
+		stroke-dashoffset: 509;
+	}
+	to {
+		stroke-dashoffset: 0;
+		fill: #fff;
+		stroke: #5C546A;
+	}
+}
+
+/*===============================================================*
+	Keyframes Cog Spin
+/*===============================================================*/
+@keyframes spin {
+    60% {
+    	transform:rotate(0deg);
+    	transform-origin: center;
+    }
+    100% {
+    	transform:rotate(360deg);
+    	transform-origin: center;
+
+    }
+}
