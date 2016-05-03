@@ -26,10 +26,10 @@
   <body>
     <header class="header clearfix">
       <canvas class="dots-canvas"></canvas>
-      <video autoplay  poster="images/brian_ley.png" id="bgvid" loop muted>
+      <video autoplay  poster="images/brian_ley.png" id="bgvid" loop>
       <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-      <source src="videos/biran_ley.webm" type="video/webm">
-      <source src="videos/biran_ley.mp4" type="video/mp4">
+      <source src="videos/biran_ley_edited.webm" type="video/webm">
+      <source src="videos/biran_ley_edited.mp4" type="video/mp4">
       </video>
       <div class="vids-overlay"></div>
       <nav>
