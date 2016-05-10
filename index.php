@@ -19,8 +19,8 @@
     <![endif]-->
 
     
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
       
   </head>
   <body>
