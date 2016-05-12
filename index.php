@@ -17,10 +17,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="https://d3js.org/topojson.v1.min.js"></script>
       
   </head>
   <body>
@@ -175,273 +171,99 @@
         <img src="images/alpharanks_works_bound_v3.svg" alt="">
       </div>
     </section>
-    <section class="sect-timeline">
-      <div id="pagepiling-timeline">
-        <div class="section pp-section pp-table pp-easing timeline t2013">
-          <div class="container">
-            <header>
-              <h2>From Computational Epidemiology to Finance <span>2013</span></h2>
-            </header>
-            <div class="inner">
-              
-            </div>
-          </div>
-        </div>
-        <div class="section pp-section pp-table pp-easing timeline t2014">
-          <div class="container">
-            <header>
-              <h2>From Computational Epidemiology to Finance <span>2014</span></h2>
-            </header>
-            <div class="inner">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <h3>Nightclubs wanted to help selling more tickets through influencers (Ruby Skye Case Study)</h3>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                  <img class="img-responsive" src="images/rubyskye.jpg" alt="Ruby Skye Case Study">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section pp-section pp-table pp-easing timeline t2015">
-          <div class="container">
-            <header>
-              <h2>From Computational Epidemiology to Finance <span>2015</span></h2>
-            </header>
-            <div class="inner">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <img class="img-responsive" src="images/princess_poly.jpg" alt="Ruby Skye Case Study">
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                  <h3>Retailers got word of our secret sauce. Helped find most influential brand ambassador (Princess Polly Case Study)</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section pp-section pp-table pp-easing timeline t2016">
-          <div class="container">
-            <header>
-              <h2>From Computational Epidemiology to Finance <span>2016</span></h2>
-            </header>
-            <div class="inner"></div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-<!--
-    <section class="sect-networks">
+    <section class="sect-timeline clearfix">
       <div class="container">
-        <h2 class="reveal">Why do <i class="it">human</i> networks matter?</h2>
+        <h2 class="h-title">From computational ... to finance</h2>
+        <ul class="timeline-cont">
+          <li>
+            <div class="year-title">
+              <span class="year">2013</span>
+              <h4>Team AlphaRank mapping viruses in Asia</h4>
+            </div>
+          </li>
+          <li>
+            <div class="year-title">
+              <span class="year">2014</span>
+              <h4>Nightclubs wanted help selling more tickets through influencers <a href="#" target="_blank">Ruby Skye case study</a></h4>
+            </div>
+          </li>
+          <li>
+            <div class="year-title">
+              <span class="year">2015</span>
+              <h4>Retailers got word of our secret sauce. Helped find most influential brand ambassadors <a href="#" target="_blank">Princess Polly case study</a></h4>
+            </div>
+          </li>
+          <li>
+            <div class="year-title">
+              <span class="year">2016</span>
+              <h4>Financial Institutions now can target the customers who matter the most <a href="https://www.youtube.com/watch?v=n43J8bEbmA8" target="_blank">JPMorgan Video</a>.</h4>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="sect-clients">
+      <div class="container">
+        <h2 class="h-title">Fortune 500 Companies Trust Us</h2>
         <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="net-blocks reveal">
-              <div class="icon-container">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                <g>
-                  <g>
-                    <g>
-                      <path style="fill:#FFB980;" d="M126.782,306.207c-18.452,0-35.193-7.918-47.545-20.715c-0.009,7.669-0.288,18.74-2.321,26.816
-                        c1.334,0.815,2.369,2.154,2.571,3.819c2.636,21.45,22.967,37.623,47.295,37.623c24.324,0,44.654-16.175,47.295-37.623
-                        c0.205-1.668,1.218-3.004,2.572-3.817c-2.034-8.078-2.313-19.149-2.322-26.819C161.975,298.289,145.233,306.207,126.782,306.207z
-                        "/>
-                    </g>
-                    <g>
-                      <path style="fill:#F8AB6B;" d="M173.295,286.467c-12.248,12.2-28.554,19.741-46.513,19.741c-18.452,0-35.193-7.918-47.545-20.715
-                        c-0.009,7.669-0.288,18.74-2.321,26.816c1.334,0.815,2.369,2.154,2.571,3.819c1.165,9.481,5.796,17.923,12.693,24.402
-                        C123.986,336.05,160.086,304.643,173.295,286.467z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#00E68C;" d="M223.199,318.013c-0.212-0.059-0.423-0.106-0.64-0.137l-42.168-6.327
-                        c-0.258-0.039-0.81-0.059-1.073-0.059c-2.667,0-4.916,1.989-5.241,4.638c-2.641,21.448-22.972,37.623-47.295,37.623
-                        c-24.329,0-44.659-16.173-47.295-37.623c-0.33-2.726-2.786-4.777-5.375-4.635c-0.31-0.018-0.614,0.008-0.939,0.057l-42.168,6.327
-                        c-0.217,0.031-0.428,0.077-0.64,0.137C10.431,323.595,0,343.209,0,359.699v20.465c0,8.713,7.759,15.801,17.297,15.801h218.969
-                        c9.539,0,17.297-7.088,17.297-15.801v-20.465C253.563,343.209,243.132,323.595,223.199,318.013z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#FDC88E;" d="M174.325,174.143H84.521c-14.563,0-26.413,11.85-26.413,26.413v31.695
-                        c0,40.78,30.808,73.956,68.673,73.956s68.673-33.176,68.673-73.956v-36.978C195.455,183.623,185.978,174.143,174.325,174.143z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#5C546A;" d="M163.76,116.035H95.086c-9.936,0-18.288,6.892-20.537,16.144
-                        c-18.185,2.311-32.289,17.88-32.289,36.681v26.413c0,13.614,5.779,26.314,15.848,35.34v-30.058
-                        c0-14.563,11.85-26.413,26.413-26.413h89.804c11.654,0,21.13,9.479,21.13,21.13v35.335c10.071-9.024,15.848-21.724,15.848-35.335
-                        v-31.695C211.303,137.364,189.976,116.035,163.76,116.035z"/>
-                    </g>
-                  </g>
-                  <g>
-                    <g>
-                      <path style="fill:#FFB980;" d="M385.218,306.207c-18.452,0-35.193-7.918-47.545-20.715c-0.009,7.669-0.288,18.74-2.321,26.816
-                        c1.334,0.815,2.369,2.154,2.571,3.819c2.636,21.45,22.967,37.623,47.295,37.623c24.324,0,44.654-16.175,47.295-37.623
-                        c0.205-1.668,1.218-3.004,2.572-3.817c-2.034-8.078-2.313-19.149-2.322-26.819C420.411,298.289,403.67,306.207,385.218,306.207z"
-                        />
-                    </g>
-                    <g>
-                      <path style="fill:#F8AB6B;" d="M431.731,286.467c-12.248,12.2-28.554,19.741-46.513,19.741c-18.452,0-35.193-7.918-47.545-20.715
-                        c-0.009,7.669-0.288,18.74-2.321,26.816c1.334,0.815,2.369,2.154,2.571,3.819c1.165,9.481,5.796,17.923,12.693,24.402
-                        C382.422,336.05,418.522,304.643,431.731,286.467z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#00ABFF;" d="M481.635,318.013c-0.211-0.059-0.423-0.106-0.64-0.137l-42.168-6.327
-                        c-0.258-0.039-0.81-0.059-1.073-0.059c-2.667,0-4.916,1.989-5.241,4.638c-2.641,21.448-22.972,37.623-47.295,37.623
-                        c-24.329,0-44.659-16.173-47.295-37.623c-0.33-2.726-2.786-4.777-5.375-4.635c-0.31-0.018-0.614,0.008-0.939,0.057l-42.168,6.327
-                        c-0.217,0.031-0.428,0.077-0.64,0.137c-19.933,5.582-30.364,25.195-30.364,41.685v20.465c0,8.713,7.759,15.801,17.297,15.801
-                        h218.969c9.539,0,17.297-7.088,17.297-15.801v-20.465C512,343.209,501.569,323.595,481.635,318.013z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#FDC88E;" d="M432.761,174.143h-89.804c-14.563,0-26.413,11.85-26.413,26.413v31.695
-                        c0,40.78,30.808,73.956,68.673,73.956s68.673-33.176,68.673-73.956v-36.978C453.892,183.623,444.415,174.143,432.761,174.143z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#7E5C62;" d="M422.196,116.035h-68.673c-9.936,0-18.288,6.892-20.537,16.144
-                        c-18.185,2.311-32.289,17.88-32.289,36.681v26.413c0,13.614,5.779,26.314,15.848,35.34v-30.058
-                        c0-14.563,11.85-26.413,26.413-26.413h89.804c11.654,0,21.13,9.479,21.13,21.13v35.335c10.071-9.024,15.848-21.724,15.848-35.335
-                        v-31.695C469.739,137.364,448.413,116.035,422.196,116.035z"/>
-                    </g>
-                  </g>
-                  <g>
-                    <g>
-                      <path style="fill:#FDC88E;" d="M256,332.035c-27.944,0-53.297-11.991-72.003-31.372c-0.014,11.615-0.436,28.379-3.516,40.611
-                        c2.02,1.235,3.588,3.262,3.894,5.784c3.992,32.484,34.781,56.977,71.625,56.977c36.836,0,67.625-24.496,71.625-56.977
-                        c0.31-2.525,1.844-4.549,3.895-5.78c-3.08-12.233-3.503-28.999-3.517-40.615C309.297,320.044,283.944,332.035,256,332.035z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#FFB980;" d="M326.44,302.139c-18.549,18.477-43.242,29.896-70.44,29.896
-                        c-27.944,0-53.297-11.991-72.003-31.372c-0.014,11.615-0.436,28.379-3.516,40.611c2.02,1.235,3.588,3.262,3.894,5.784
-                        c1.765,14.359,8.778,27.144,19.223,36.954C251.766,377.229,306.436,329.666,326.44,302.139z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#FF4F19;" d="M402.015,349.914c-0.32-0.09-0.641-0.16-0.969-0.207l-63.859-9.582
-                        c-0.391-0.059-1.227-0.09-1.625-0.09c-4.039,0-7.445,3.012-7.938,7.023c-4,32.48-34.789,56.977-71.625,56.977
-                        c-36.844,0-67.633-24.492-71.625-56.977c-0.5-4.129-4.219-7.234-8.141-7.02c-0.469-0.027-0.93,0.012-1.422,0.086l-63.859,9.582
-                        c-0.328,0.047-0.648,0.117-0.969,0.207C79.797,358.367,64,388.07,64,413.043v30.992c0,13.195,11.75,23.93,26.195,23.93h331.609
-                        c14.445,0,26.195-10.734,26.195-23.93v-30.992C448,388.07,432.203,358.367,402.015,349.914z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#FFE1B2;" d="M328,132.035H192c-22.055,0-40,17.945-40,40v48c0,61.758,46.656,112,104,112s104-50.242,104-112
-                        v-56C360,146.391,345.648,132.035,328,132.035z"/>
-                    </g>
-                    <g>
-                      <path style="fill:#7E5449;" d="M312,44.035H208c-15.047,0-27.695,10.437-31.102,24.449C149.359,71.984,128,95.562,128,124.035v40
-                        c0,20.617,8.752,39.851,24,53.52v-45.52c0-22.055,17.945-40,40-40h136c17.648,0,32,14.355,32,32v53.511
-                        c15.251-13.666,24-32.899,24-53.511v-48C384,76.336,351.703,44.035,312,44.035z"/>
-                    </g>
-                  </g>
-                </g>
-                </svg>
-
-              </div>
-              <h3>Recommendations from people are better than advertisements</h3>
-              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/capital_one.png" alt="Capital One">
             </div>
           </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="net-blocks reveal">
-              <div class="icon-container">
-                
-                <svg id="svg-cog" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414.95 414.95"><defs><style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:15px;}</style></defs><title>cogwheel</title><path class="cls-1" d="M395.45,169.57H360.79a157.08,157.08,0,0,0-17.24-41.92L368.21,103a12,12,0,0,0,0-17L330.74,48.55a12,12,0,0,0-17,0L289.41,72.9A157.12,157.12,0,0,0,246,54.76V19.5a12,12,0,0,0-12-12H181a12,12,0,0,0-12,12V54.76a157.1,157.1,0,0,0-42.69,17.7L102.38,48.55h0l-0.61-.61a12,12,0,0,0-17,0L47.32,85.41a12,12,0,0,0,0,17L47.93,103h0L71.84,126.9a157.1,157.1,0,0,0-17.69,42.67H19.5a12,12,0,0,0-12,12v53a12,12,0,0,0,12,12H54.16A157.12,157.12,0,0,0,72.3,290L47.93,314.38a12,12,0,0,0,0,17l37.48,37.48a12,12,0,0,0,17,0l24.68-24.68A157.08,157.08,0,0,0,169,361.39v34.06a12,12,0,0,0,12,12h53a12,12,0,0,0,12-12V361.39a157.1,157.1,0,0,0,42.67-17.69l25.12,25.12a12,12,0,0,0,17,0l37.48-37.48a12,12,0,0,0,0-17l-0.61-.61-24.51-24.51a157.1,157.1,0,0,0,17.7-42.69h34.66a12,12,0,0,0,12-12v-53A12,12,0,0,0,395.45,169.57Z"/><circle class="cls-1" cx="208.07" cy="208.07" r="81.13"/></svg>
-              </div>
-              <h3>New products and services become popular targeting specific networks and regions</h3>
-              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-              <div></div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/td_bank.png" alt="Capital One">
             </div>
           </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="net-blocks reveal">
-              <div class="icon-container">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                  <g>
-                    <g>
-                      <path style="fill:#9F6459;" d="M416,32H272c0,8.836-7.164,16-16,16s-16-7.164-16-16H96c-22.055,0-40,17.945-40,40v400
-                        c0,22.055,17.945,40,40,40h320c22.055,0,40-17.945,40-40V72C456,49.945,438.054,32,416,32z M416,464c0,4.418-3.582,8-8,8H104
-                        c-4.418,0-8-3.582-8-8V80c0-4.418,3.582-8,8-8h304c4.418,0,8,3.582,8,8V464z"/>
-                    </g>
-                    <g>
-                      <g>
-                        <path style="fill:#D8DCE1;" d="M152,368c-1.891,0-3.789-0.664-5.312-2.023c-3.305-2.93-3.602-7.992-0.664-11.289l64-72
-                          c2.328-2.625,6.094-3.422,9.289-1.969l80.445,36.57l52.844-128.336c1.688-4.078,6.359-6,10.445-4.352
-                          c4.086,1.68,6.031,6.359,4.352,10.445l-56,136c-0.828,2.008-2.438,3.594-4.453,4.391s-4.273,0.742-6.258-0.156l-82.625-37.555
-                          l-60.086,67.586C156.398,367.094,154.203,368,152,368z"/>
-                      </g>
-                    </g>
-                    <g>
-                      <circle style="fill:#FF4F19;" cx="152" cy="360" r="24"/>
-                    </g>
-                    <g>
-                      <circle style="fill:#FF9600;" cx="216" cy="288" r="24"/>
-                    </g>
-                    <g>
-                      <circle style="fill:#FFD200;" cx="304" cy="328" r="24"/>
-                    </g>
-                    <g>
-                      <circle style="fill:#74D24F;" cx="360" cy="192" r="24"/>
-                    </g>
-                    <g>
-                      <path style="fill:#B9BBC1;" d="M304,16h-20.391C277.969,6.242,267.484,0,256,0s-21.969,6.242-27.609,16H208
-                        c-22.055,0-40,17.945-40,40v32c0,4.418,3.578,8,8,8h160c4.422,0,8-3.582,8-8V56C344,33.945,326.055,16,304,16z M256,40
-                        c-4.418,0-8-3.582-8-8c0-4.418,3.582-8,8-8s8,3.582,8,8C264,36.418,260.418,40,256,40z"/>
-                    </g>
-                  </g>
-                  </svg>
-              </div>
-              <h3>Lots of data can be easily segmented understanding each customer’s network value</h3>
-              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/first_bank.png" alt="Capital One">
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/jpmorgan_chase.png" alt="Capital One">
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/master_card.png" alt="Capital One">
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/visa.png" alt="Capital One">
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/privat_bank.png" alt="Capital One">
             </div>
           </div>
         </div>
       </div>
     </section>
--->
 
-    <section class="sect-company">
-      <div id="client-carousel" class="owl-carousel">
-        <div>
-          <div class="clients">
-            <img class="img-responsive" src="images/zappos-transparent.png" alt="">
-          </div>
-        </div>
-        <div>
-          <div class="clients">
-            <img class="img-responsive" src="images/capital_one.png" alt="">
-          </div>
-        </div>
-        <div>
-          <div class="clients">
-            <img class="img-responsive" src="images/first_bank.png" alt="">
-          </div>
-        </div>
-        <div>
-          <div class="clients">
-            <img class="img-responsive" src="images/jpmorgan_chase.png" alt="">
-          </div>
-        </div>
-        <div>
-          <div class="clients">
-            <img class="img-responsive" src="images/staples.png" alt="">
-          </div>
-        </div>
-        <div>
-          <div class="clients">
-            <img class="img-responsive" src="images/eventbrite_logo.png" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="sect-contacts">
-
-      <!-- <div id="map"></div> -->
-      <div id="turnglobe">
-        
-        <div id="worldmap"></div>
-        
-      </div>
       <div class="container">
+        <div class="map-cont">
+          <div id="map"></div>
+          <div class="list-group offices">
+            <h3 class="list-group-item">Our Offices</h3>
+            <div id="office_sv" class="list-group-item active lists-off">
+               <span class="photo"><img src="images/silicon-valley.png" alt=""></span>
+               <h4>Silicon Valley</h4>
+               <p>25 Taylor St <br>San Francisco, CA 94102</p>
+            </div>
+            <div id="office_durham" class="list-group-item lists-off">
+               <span class="photo"><img src="images/durham-nc.png" alt=""></span>
+               <h4>Durham, NC</h4>
+               <p>201 W Main St <br>Durham, NC 27704</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="h-title">Contact Us</h2>
         <div class="row">
           <div class="col-xs-12 col-sm-8 col-sm-offset-2">
             <h3>Ready to understand your people?</h3>
@@ -481,49 +303,20 @@
         
       </div>
     </section>
-    <footer>
+    <footer class="footer">
+    
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script> -->
-    <!-- <script src="js/jquery.visible.min.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
     <script src="js/scrollreveal.min.js"></script>
-    <script src="js/owl.carousel2.min.js"></script>
-    <script src="js/jquery.pagepiling.min.js"></script>
     <script src="js/main.js"></script>
     <script>
       $(function() {
-
         window.sr = new scrollReveal();
-        
-        $('#pagepiling-timeline').pagepiling();
-
-        // Owl
-        var owl = $('#client-carousel');
-
-        owl.on('mousewheel', '.owl-stage', function (e) {
-            if (e.deltaY>0) {
-                owl.trigger('next.owl');
-            } else {
-                owl.trigger('prev.owl');
-            }
-            e.preventDefault();
-        });
-        $("#journey-carousel").owlCarousel({
-          items:1,
-          nav: true,
-          navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
-        });
-
-        $("#client-carousel").owlCarousel({
-          items: 5,
-          loop: true
-        });
-
-        
       });
 
     </script>
