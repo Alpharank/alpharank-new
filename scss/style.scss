@@ -270,6 +270,7 @@ h2 {
 		}
 	} 
 }
+
 .year-title {
 	position: relative;
 	padding: 30px 15px;
@@ -282,16 +283,21 @@ h2 {
         display: block;
 	    margin-bottom: 20px;
 	    font: 900 2rem 'Raleway', sans-serif;
-	    color: #212121;
+	    color: #13B28B;
 	    text-align: center;
+	}
+	.icon-cont {
+    	margin: 10px auto 20px;
+	    width: 150px;
+	    height: 150px;
 	}
 	&:before {
 		content: '';
 	    position: absolute;
-	    top: 6px;
+	    top: 7px;
 	    display: block;
 	    width: 100%;
-	    height: 1px;
+	    height: 2px;
 	    background: #13B28B;
 	}
 	&:after {
@@ -301,10 +307,37 @@ h2 {
 	    left: 1%;
 	    right: 1%;
 	    margin: 0 auto;
-	    width: 12px;
-	    height: 12px;
+	    width: 16px;
+	    height: 16px;
 	    border-radius: 59px;
 	    background: #13B28B;
+	}
+}
+.y2014 {
+	.year {
+		color: #2980b9;
+	}
+	&:before,
+	&:after {
+		background: #2980b9;
+	}
+}
+.y2015 {
+	.year {
+		color: #8e44ad;
+	}
+	&:before,
+	&:after {
+		background: #8e44ad;
+	}
+}
+.y2016 {
+	.year {
+		color: #e74c3c;
+	}
+	&:before,
+	&:after {
+		background: #e74c3c;
 	}
 }
 /*==========================================================*/
@@ -366,7 +399,7 @@ h2 {
     left: 10%;
     width: 35%;
     transform: translateY(-50%);
-    padding: 10px 0px 20px;
+    padding: 10px 0px 25px;
     color: #fff;
     background: #191A1B;
     h3 {
@@ -407,3 +440,93 @@ h2 {
 .footer {
 	background: #202224;
 }
+
+/*==========================================================*/
+// SVG
+/*==========================================================*/
+.svg-hiw {
+	.st0{display:none;}
+    .st1{display:inline;fill:#22313F;stroke:#000000;stroke-miterlimit:10;}
+    .st2{fill:#EF4C35;}
+    .st3{fill:#E67E24;}
+    .st4{fill:#F62459;}
+    .st5{display:inline;}
+    .st6{fill:none;stroke:#13B28B;stroke-miterlimit:10;}
+    .st7{fill:none;stroke:#13B28B;stroke-miterlimit:10;stroke-dasharray:1.0049,1.0049;}
+    .st8{display:none;stroke:#13B28B;stroke-miterlimit:10;stroke-dasharray:1;}
+    .st9{display:inline;fill:#13B28B;}
+    .st10{fill:#13B28B;}
+    .st11{fill:url(#SVGID_1_);}
+    .st12{fill:#F7D9B5;}
+    .st13{fill:#EFBC8B;}
+    .st14{fill:#EFAB84;}
+    .st15{fill:none;stroke:#D6925F;stroke-width:1.3835;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st16{fill:#332113;}
+    .st17{fill:#3B4443;}
+    .st18{fill:url(#SVGID_2_);}
+    .st19{fill:#B32E1B;}
+    .st20{display:inline;fill:#FFB1A9;}
+    .st21{fill:#2E475B;}
+    .st22{fill:none;stroke:#22313F;stroke-width:2;stroke-miterlimit:10;}
+    .st23{fill:#565F96;}
+    .st24{fill:#FFFFFF;}
+    .st25{display:inline;fill:#565F96;}
+    .st26{display:inline;fill:#FFFFFF;}
+    .st27{fill:#67809F;}
+    .st28{fill:#FFFFFF;stroke:#666666;stroke-width:4;stroke-miterlimit:10;}
+    .st29{opacity:0.4;fill:#13B38B;enable-background:new    ;}
+    .st30{fill:#13B38B;}
+    .st31{fill:none;stroke:#13B28B;stroke-miterlimit:10;stroke-dasharray:2.0042,2.0042;}
+    .st32{fill:#22313F;stroke:#13B28B;stroke-miterlimit:10;}
+    .st33{fill:#22313F;stroke:#13B28B;stroke-width:3;stroke-miterlimit:10;}
+    .st34{fill:#13B28B;stroke:#13B28B;stroke-width:3;stroke-miterlimit:10;}
+    .st35{fill:#F9DAC5;}
+    .st36{fill:url(#SVGID_3_);}
+    .st37{fill:#1DACBC;}
+    .st38{fill:#F2BC9E;}
+    .st39{fill:url(#SVGID_4_);}
+    .st40{fill:#FFFFFF;stroke:#D6925F;stroke-width:1.9275;stroke-miterlimit:10;}
+    .st41{fill:url(#SVGID_5_);}
+    .st42{fill:#F9D5B4;}
+    .st43{fill:#7796F7;}
+    .st44{fill:#F2B78B;}
+    .st45{fill:#D19452;}
+    .st46{fill:none;stroke:#D6925F;stroke-width:1.7777;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st47{fill:url(#SVGID_6_);}
+    .st48{fill:url(#SVGID_7_);}
+    .st49{fill:url(#SVGID_8_);}
+    .st50{fill:url(#SVGID_9_);}
+    .st51{fill:url(#SVGID_10_);}
+    .st52{display:none;fill:#FFFFFF;}
+    .st53{font-family:'Montserrat-SemiBold';}
+    .st54{font-size:12px;}
+    .st55{fill:#3B5997;}
+    .st56{fill:url(#SVGID_11_);}
+    .st57{fill:url(#SVGID_12_);}
+    .st58{fill:url(#SVGID_13_);}
+    .st59{fill:url(#SVGID_14_);}
+    .st60{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+    .st61{display:none;fill:#13B28B;}
+    .st62{fill:none;stroke:#13B28B;stroke-width:0.5;stroke-miterlimit:10;}
+    .st63{fill:none;stroke:#13B28B;stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:1.9565,1.9565;}
+}
+
+.cogs {
+	animation: spin 3s linear infinite;
+}
+
+/*===============================================================*
+	Keyframes Cog Spin
+/*===============================================================*/
+@keyframes spin {
+    60% {
+    	transform:rotate(0deg);
+    	transform-origin: center;
+    }
+    100% {
+    	transform:rotate(360deg);
+    	transform-origin: center;
+
+    }
+}
+
