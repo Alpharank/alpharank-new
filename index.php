@@ -1641,7 +1641,7 @@
                 <img src="images/ticket.svg" alt="">
               </div>
               <span class="year">2014</span>
-              <h4>Nightclubs wanted help selling more tickets through influencers <a href="pdf/RubySkyeCase.pdf" target="_blank">[Ruby Skye case study]</a></h4>
+              <h4>Nightclubs wanted help selling more tickets through influencers <a href="pdf/RubySkyeCase.pdf" target="_blank">Ruby Skye case study</a></h4>
             </div>
           </li>
           <li>
@@ -1650,7 +1650,7 @@
                 <img src="images/store.svg" alt="">
               </div>
               <span class="year">2015</span>
-              <h4>Retailers got word of our secret sauce. Helped find most influential brand ambassadors <a href="pdf/PrincessPolly.pdf" target="_blank">[Princess Polly case study]</a></h4>
+              <h4>Retailers got word of our secret sauce. Helped find most influential brand ambassadors <a href="pdf/PrincessPolly.pdf" target="_blank">Princess Polly case study</a></h4>
             </div>
           </li>
           <li>
@@ -1659,7 +1659,7 @@
                 <img src="images/presentation.svg" alt="">
               </div>
               <span class="year">2016</span>
-              <h4>Financial Institutions now can target the customers who matter the most <a href="https://www.youtube.com/watch?v=n43J8bEbmA8" target="_blank">[JPMorgan Video]</a>.</h4>
+              <h4>Financial Institutions now can target the customers who matter the most <a href="https://www.youtube.com/watch?v=n43J8bEbmA8" target="_blank">JPMorgan Video</a>.</h4>
             </div>
           </li>
         </ul>
