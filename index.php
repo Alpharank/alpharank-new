@@ -32,7 +32,7 @@
         <div class="main-nav fixed-top">
           <ul>
             <li>
-              <a href="index.html">
+              <a href="/">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="238px" height="36px" viewBox="0 0 238 36" enable-background="new 0 0 238 36" xml:space="preserve">
                   <g id="Layer_1" display="none">
                   </g>
