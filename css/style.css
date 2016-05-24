@@ -10288,7 +10288,8 @@ h2 {
 .sect-hiw,
 .sect-clients,
 .sect-timeline,
-.sect-contacts {
+.sect-contacts,
+.sect-api {
   padding: 80px 0; }
 
 .header {
@@ -10438,9 +10439,9 @@ h2 {
 /*==========================================================*/
 /*==========================================================*/
 .sect-timeline {
-  background: #f3f3f3; }
+  background: #e3e3e3; }
   .sect-timeline .h-title {
-    color: #13B28B; }
+    color: #22313F; }
   .sect-timeline a {
     text-decoration: none; }
     .sect-timeline a:hover {
@@ -10791,5 +10792,73 @@ h2 {
   100% {
     transform: rotate(360deg);
     transform-origin: center; } }
+/*===============================================================*
+	Inner Pages
+/*===============================================================*/
+.page {
+  background: #444; }
+
+.page .header {
+  height: auto; }
+
+/*===============================================================*
+	API page
+/*===============================================================*/
+.sect-api {
+  color: #fff; }
+  .sect-api .api-title {
+    font-size: 30px;
+    color: #13B28B;
+    font-weight: 700; }
+  .sect-api p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: Raleway, sans-serif;
+    word-spacing: 1px; }
+
+.code-block {
+  margin: 25px 0;
+  padding: 15px;
+  color: #fff;
+  border: 1px dashed #fff;
+  font-size: 1.4rem;
+  font-family: monospace;
+  background: transparent; }
+  .code-block .c-link {
+    display: block;
+    padding: 14px 0;
+    color: #13B28B; }
+  .code-block .c-method {
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-style: normal; }
+
+.r-actions {
+  margin-bottom: 35px;
+  padding-top: 15px; }
+  .r-actions .action-name {
+    margin-bottom: 15px;
+    font-size: 2rem; }
+
+.view-response {
+  margin: 10px 0;
+  padding: 14px 18px;
+  width: auto;
+  font-size: 1.4rem;
+  line-height: 1;
+  border-color: #13B28B;
+  background: #13B28B; }
+  .view-response .fa {
+    margin: 0;
+    margin-left: 5px;
+    top: 1px;
+    font-size: 1.4rem; }
+  .view-response:hover {
+    opacity: 0.8; }
+
+.code-response {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

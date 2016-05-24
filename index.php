@@ -32,7 +32,7 @@
         <div class="main-nav fixed-top">
           <ul>
             <li>
-              <a href="#">
+              <a href="index.html">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="238px" height="36px" viewBox="0 0 238 36" enable-background="new 0 0 238 36" xml:space="preserve">
                   <g id="Layer_1" display="none">
                   </g>
@@ -151,7 +151,7 @@
                   </svg>
                 </a>
               </li>
-              <li><a class="nav-links" href="#"><i class="fa fa-code"></i><span>View API</span></a></li>
+              <li><a class="nav-links" href="api.html"><i class="fa fa-code"></i><span>View API</span></a></li>
               <li><a class="nav-links" href="#"><i class="fa fa-star"></i><span>Features</span></a></li>
               <li><a class="nav-links" href="#"><i class="fa fa-wrench"></i><span>Installation</span></a></li>
               <li><a class="nav-links" href="#"><i class="fa fa-bar-chart"></i><span>Resources</span></a></li>
@@ -161,7 +161,7 @@
       <div class="hero-container">
         <h2 data-sr="enter bottom, ease-in-out 100px">We map <i class="it">human</i> networks</h2>
         <p data-sr="enter bottom, ease-in-out 100px wait 0.3s">Companies still build recommendation engines and analyze their customers by behaviors recorded in-store or online. Humans are active organisms that grow in networks. Alpharank allows you to predict which customers will matter over time without hours of data science and many complicated models.</p>
-        <div  data-sr="enter bottom, ease-in-out 100px, wait 0.6s"><a class="btn btn-primary" href="#"><i class="fa fa-code"></i> View API</a><a class="btn btn-primary" href="#"><i class="fa fa-phone"></i>Contact Us</a></div>
+        <div  data-sr="enter bottom, ease-in-out 100px, wait 0.6s"><a class="btn btn-primary" href="api.html"><i class="fa fa-code"></i> View API</a><a class="btn btn-primary" href="#"><i class="fa fa-phone"></i>Contact Us</a></div>
       </div>
     </header>
 
@@ -1632,7 +1632,7 @@
                 <img src="images/global.svg" alt="">
               </div>
               <span class="year">2013</span>
-              <h4>Team AlphaRank mapping viruses in Asia</h4>
+              <h4>Team Alpharank is mapping viruses in Asia</h4>
             </div>
           </li>
           <li>
@@ -1641,7 +1641,7 @@
                 <img src="images/ticket.svg" alt="">
               </div>
               <span class="year">2014</span>
-              <h4>Nightclubs wanted help selling more tickets through influencers <a href="pdf/RubySkyeCase.pdf" target="_blank">Ruby Skye case study</a></h4>
+              <h4>Nightclubs begin asking for help selling tickets by marketing to their influencers</h4>
             </div>
           </li>
           <li>
@@ -1650,7 +1650,7 @@
                 <img src="images/store.svg" alt="">
               </div>
               <span class="year">2015</span>
-              <h4>Retailers got word of our secret sauce. Helped find most influential brand ambassadors <a href="pdf/PrincessPolly.pdf" target="_blank">Princess Polly case study</a></h4>
+              <h4>Retailers Retailers show interest in finding their most influential brand ambassadors</h4>
             </div>
           </li>
           <li>
@@ -1659,7 +1659,7 @@
                 <img src="images/presentation.svg" alt="">
               </div>
               <span class="year">2016</span>
-              <h4>Financial Institutions now can target the customers who matter the most <a href="https://www.youtube.com/watch?v=n43J8bEbmA8" target="_blank">JPMorgan Video</a>.</h4>
+              <h4>Financial instuitions can now target their most important customers</h4>
             </div>
           </li>
         </ul>
@@ -1686,22 +1686,27 @@
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
             <div class="clients">
-              <img class="img-responsive" src="images/jpmorgan_chase.png" alt="Capital One">
+              <img class="img-responsive" src="images/jpmorgan_chase.png" alt="JPMORGAN CHASE">
             </div>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
             <div class="clients">
-              <img class="img-responsive" src="images/master_card.png" alt="Capital One">
+              <img class="img-responsive" src="images/master_card.png" alt="Master Card">
             </div>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
             <div class="clients">
-              <img class="img-responsive" src="images/visa.png" alt="Capital One">
+              <img class="img-responsive" src="images/visa.png" alt="VISA">
             </div>
           </div>
           <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
             <div class="clients">
-              <img class="img-responsive" src="images/privat_bank.png" alt="Capital One">
+              <img class="img-responsive" src="images/privat_bank.png" alt="PrivatBank">
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="clients">
+              <img class="img-responsive" src="images/citibank.png" alt="Citibank">
             </div>
           </div>
         </div>
@@ -1724,7 +1729,7 @@
         <h2 class="h-title">Contact Us</h2>
         <div class="row">
           <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-            <h3>Ready to understand your people?</h3>
+            <h3>Ready to analyze your customer network?</h3>
 
             <form role="form" id="contact_form" name="contact_form">
               <div class="row">

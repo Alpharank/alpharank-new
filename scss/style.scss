@@ -14,6 +14,7 @@ html, body {
 body {
 	font-size: 10px;
 }
+
 p {
 	letter-spacing: 0.5px;
 }
@@ -63,7 +64,8 @@ h2 {
 .sect-hiw,
 .sect-clients,
 .sect-timeline,
-.sect-contacts {
+.sect-contacts,
+.sect-api {
     padding: 80px 0;
 }
 
@@ -233,9 +235,9 @@ h2 {
 // Block 3 Timeline
 /*==========================================================*/
 .sect-timeline {
-	background: #f3f3f3;
+	background: #e3e3e3;
 	.h-title {
-		color: #13B28B;
+		color: #22313F;;
 	}
 	h4 {
 
@@ -529,4 +531,81 @@ h2 {
 
     }
 }
-
+/*===============================================================*
+	Inner Pages
+/*===============================================================*/
+.page {
+	background: #444;
+}
+.page {
+	.header {
+		height: auto;
+	}
+}
+/*===============================================================*
+	API page
+/*===============================================================*/
+.sect-api {
+	color: #fff;
+	.api-title {
+	    font-size: 30px;
+	    color: #13B28B;
+	    font-weight: 700;
+	}
+	p {
+	    font-size: 1.8rem;
+	    font-weight: 400;
+	    font-family: Raleway, sans-serif;
+	    word-spacing: 1px;
+	}
+}
+.code-block {
+	margin: 25px 0;
+    padding: 15px;
+    color: #fff;
+    border: 1px dashed #fff;
+    font-size: 1.4rem;
+    font-family: monospace;
+    background: transparent;
+    .c-link {
+	    display: block;
+	    padding: 14px 0;
+	    color: #13B28B;
+    }
+    .c-method {
+    	padding: 6px 12px;
+    	border-radius: 2px;
+    	border: 1px solid #fff;
+    	text-transform: uppercase;
+    	font-style: normal;
+    }
+}
+.r-actions {
+    margin-bottom: 35px;
+    padding-top: 15px;
+    .action-name {
+	    margin-bottom: 15px;
+	    font-size: 2rem;
+    }
+}
+.view-response {
+	margin: 10px 0;
+    padding: 14px 18px;
+    width: auto;
+    font-size: 1.4rem;
+    line-height: 1;
+    border-color: #13B28B;
+    background: #13B28B;
+    .fa {
+	    margin: 0;
+    	margin-left: 5px;
+    	top: 1px;
+    	font-size: 1.4rem;
+    }
+    &:hover {
+    	opacity: 0.8;
+    }
+}
+.code-response {
+	display: none;
+}
