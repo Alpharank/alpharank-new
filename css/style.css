@@ -10439,9 +10439,9 @@ h2 {
 /*==========================================================*/
 /*==========================================================*/
 .sect-timeline {
-  background: #e3e3e3; }
+  background: #3B5997; }
   .sect-timeline .h-title {
-    color: #22313F; }
+    color: #fff; }
   .sect-timeline a {
     text-decoration: none; }
     .sect-timeline a:hover {
@@ -10464,7 +10464,8 @@ h2 {
   padding: 30px 15px; }
   .year-title h4 {
     line-height: 1.4;
-    text-align: center; }
+    text-align: center;
+    color: #EAEAFF; }
   .year-title .year {
     display: block;
     margin-bottom: 20px;
@@ -10496,19 +10497,19 @@ h2 {
     background: #13B28B; }
 
 .y2014 .year {
-  color: #2980b9; }
+  color: #6DA8D6; }
 .y2014:before, .y2014:after {
-  background: #2980b9; }
+  background: #6DA8D6; }
 
 .y2015 .year {
-  color: #8e44ad; }
+  color: #C05CEA; }
 .y2015:before, .y2015:after {
-  background: #8e44ad; }
+  background: #C05CEA; }
 
 .y2016 .year {
-  color: #e74c3c; }
+  color: #F97163; }
 .y2016:before, .y2016:after {
-  background: #e74c3c; }
+  background: #F97163; }
 
 /*==========================================================*/
 /*==========================================================*/
@@ -10834,6 +10835,21 @@ h2 {
     border: 1px solid #fff;
     text-transform: uppercase;
     font-style: normal; }
+
+.c-header {
+  padding-bottom: 2px; }
+  .c-header .header-title {
+    display: block;
+    padding-bottom: 8px;
+    margin: 10px 0;
+    font-weight: 900;
+    color: #fff;
+    border-bottom: 1px solid #525252;
+    letter-spacing: 0.5px; }
+  .c-header .header-key {
+    display: block; }
+    .c-header .header-key .header-value {
+      color: #13B28B; }
 
 .r-actions {
   margin-bottom: 35px;

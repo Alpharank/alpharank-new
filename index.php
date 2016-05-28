@@ -151,10 +151,9 @@
                   </svg>
                 </a>
               </li>
-              <li><a class="nav-links" href="api.html"><i class="fa fa-code"></i><span>View API</span></a></li>
-              <li><a class="nav-links" href="#"><i class="fa fa-star"></i><span>Features</span></a></li>
-              <li><a class="nav-links" href="#"><i class="fa fa-wrench"></i><span>Installation</span></a></li>
-              <li><a class="nav-links" href="#"><i class="fa fa-bar-chart"></i><span>Resources</span></a></li>
+              <li><a class="nav-links" href="api.html"><i class="fa fa-cogs"></i><span>View API</span></a></li>
+              <li><a class="nav-links" href="#"><i class="fa fa-group"></i><span>About</span></a></li>
+              <li><a class="nav-links" href="#"><i class="fa fa-paper-plane"></i><span>Contact</span></a></li>
           </ul>
         </div>
       </nav>

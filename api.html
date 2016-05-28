@@ -144,10 +144,9 @@
                   </svg>
                 </a>
               </li>
-              <li><a class="nav-links" href="api.html"><i class="fa fa-code"></i><span>View API</span></a></li>
-              <li><a class="nav-links" href="#"><i class="fa fa-star"></i><span>Features</span></a></li>
-              <li><a class="nav-links" href="#"><i class="fa fa-wrench"></i><span>Installation</span></a></li>
-              <li><a class="nav-links" href="#"><i class="fa fa-bar-chart"></i><span>Resources</span></a></li>
+              <li><a class="nav-links" href="api.html"><i class="fa fa-cogs"></i><span>View API</span></a></li>
+              <li><a class="nav-links" href="#"><i class="fa fa-group"></i><span>About</span></a></li>
+              <li><a class="nav-links" href="#"><i class="fa fa-paper-plane"></i><span>Contact</span></a></li>
           </ul>
         </div>
       </nav>
@@ -166,12 +165,6 @@
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">post</i> https://alpharank.io/api/v1/users</span>
             </div>
-            <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
-            <pre class="code-block code-response">{
-  "user_id": 42,
-  "email": "developer@example.com",
-  "username": "developer"
-}</pre>
           </div>
         </div>
 
@@ -186,8 +179,7 @@
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
-  "username": "Test",
-  "password": "test1234"
+  "auth_token": "4c28deddabb740f4bce3f1e47fdb1f46"
 }</pre>
           </div>
         </div>
@@ -200,6 +192,11 @@
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">get</i> https://alpharank.io/api/v1/users/me</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -212,12 +209,18 @@
 
         <div class="api-resource">
           <h3 class="api-title">Files Collection</h3>
+          <p>Here are the different options when dealing with data files.</p>
           <div class="r-actions">
             <h4 class="action-name">List Files Uploaded</h4>
             <p>Retrieve a list of the files uploaded by the user</p>
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">get</i> https://alpharank.io/api/v1/uploads</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -243,9 +246,15 @@
   ]
 }</pre>
             <h4 class="action-name">Upload a New File</h4>
+            <p>Uploads a file to the API. Please, read the Data File Guide for information on what information it should contain.</p>
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">post</i> https://alpharank.io/api/v1/uploads</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">multipart/form-data; boundary=---BOUNDARY</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -273,9 +282,15 @@
           <h3 class="api-title">File Tasks</h3>
           <div class="r-actions">
             <h4 class="action-name">File Details</h4>
+            <p>Get the details of a file.</p>
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">get</i> https://alpharank.io/api/v1/uploads/file_id</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -298,6 +313,15 @@
 }</pre>
             <h4 class="action-name">Delete a File</h4>
             <p>Deletes a file from the database and any association that it had with any campaign.</p>
+            <div class="code-block">
+              <span>Sample Request:</span>
+              <span class="c-link"><i class="c-method">delete</i> https://api.alpharank.io/v1/uploads/file_id</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -305,10 +329,15 @@
           <h3 class="api-title">Campaigns Collection</h3>
           <div class="r-actions">
             <h4 class="action-name">List All Campaigns</h4>
-            <p>Get a list of all Campaigns that the user has created</p>
+            <p>Get a list of all Campaigns that you have created. You can filter campaigns by status or sort them out by some attributes.</p>
             <div class="code-block">
               <span>Sample Request:</span>
-              <span class="c-link"><i class="c-method">get</i> https://alpharank.io/api/v1/campaigns</span>
+              <span class="c-link"><i class="c-method">get</i> https://api.alpharank.io/v1/campaigns?status=WAITING&sort_by=id</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -347,7 +376,12 @@
             <h4 class="action-name">Create a New Campaign</h4>
             <div class="code-block">
               <span>Sample Request:</span>
-              <span class="c-link"><i class="c-method">post</i> https://alpharank.io/api/v1/campaigns</span>
+              <span class="c-link"><i class="c-method">post</i> https://api.alpharank.io/v1/campaigns?status=WAITING&sort_by=id</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -389,6 +423,11 @@
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">get</i> https://alpharank.io/api/v1/campaigns/campaign_id</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -421,9 +460,14 @@
   ]
 }</pre>
             <h4 class="action-name">Update</h4>
+            <p>You can update a campaign only if it's status is "NOT_RUN". For more information, please, check the Campaign Guide.</p>
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">put</i> https://alpharank.io/api/v1/campaigns/campaign_id</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
@@ -456,9 +500,15 @@
   ]
 }</pre>
             <h4 class="action-name">Delete</h4>
+            <p>Deletes a campaign but the files associated with it remains intact.</p>
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">delete</i> https://alpharank.io/api/v1/campaigns/campaign_id</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
 
           </div>
@@ -468,11 +518,59 @@
           <h3 class="api-title">Campaign Executions</h3>
           <div class="r-actions">
             <h4 class="action-name">Execute a Campaign</h4>
+            <p>Changes the campaign status to "WAITING" and no changes can be made to the campaign</p>
             <div class="code-block">
               <span>Sample Request:</span>
               <span class="c-link"><i class="c-method">post</i> https://alpharank.io/api/v1/campaigns/campaign_id/execute</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
-
+            <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
+            <pre class="code-block code-response">{
+  "campaign_id": 0,
+  "campaign_name": "Data Import 2",
+  "status": "",
+  "start_time": 0,
+  "end_time": 0,
+  "completion_time": 0,
+  "influencers": [
+    {
+      "influencer_id": "",
+      "influencees": []
+    }
+  ],
+  "files": [
+    {
+      "file_id": "2",
+      "file_name": "data2.csv"
+    }
+  ],
+  "created_at": 1462886879,
+  "updated_at": 1462886890,
+  "_links": [
+    {
+      "rel": "self",
+      "href": "/uploads/1",
+      "method": "GET"
+    }
+  ]
+}</pre>
+          </div>
+          <div class="r-actions">
+            <h4 class="action-name">Cancel an execution</h4>
+            <p>Cancel the execution of a campaign. It's new status will be "NOT_RUN"</p>
+            <div class="code-block">
+              <span>Sample Request:</span>
+              <span class="c-link"><i class="c-method">delete</i> https://api.alpharank.io/v1/campaigns/campaign_id/execute</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -480,17 +578,36 @@
           <h3 class="api-title">Files on Campaign</h3>
           <div class="r-actions">
             <h4 class="action-name">Details</h4>
-            <p>This will retrieve all the files associated with the campaign</p>
+            <p>Retrieves all the files associated with the campaign.</p>
             <div class="code-block">
               <span>Sample Request:</span>
-              <span class="c-link"><i class="c-method">get</i> https://alpharank.io/api/v1/campaigns/campaign_id/files</span>
+              <span class="c-link"><i class="c-method">get</i> https://api.alpharank.io/v1/campaigns/campaign_id/files</span>
+              <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
             <a class="view-response btn btn-primary">View Sample Response <i class="fa fa-angle-down"></i></a>
             <pre class="code-block code-response">{
   "data": [
     {
       "id": 1,
-      "name": "hello.csv"
+      "name": "data.csv",
+      "records": 23466634,
+      "campaigns": [
+        {
+          "id": 1,
+          "name": "Data Import"
+        }
+      ],
+      "_links": [
+        {
+          "rel": "self",
+          "href": "/uploads/1",
+          "method": "GET"
+        }
+      ]
     }
   ]
 }</pre>
@@ -504,7 +621,11 @@
             <p>This request unlink a file from a campaign. It doesn't delete the file.</p>
             <div class="code-block">
               <span>Sample Request:</span>
-              <span class="c-link"><i class="c-method">delete</i> https://alpharank.io/api/v1/campaigns/campaign_id/files/file_id</span>
+              <span class="c-link"><i class="c-method">delete</i> https://alpharank.io/api/v1/campaigns/campaign_id/files/file_id</span>  <div class="c-header">
+                <span class="header-title">HEADERS</span>
+                <span class="header-key">Content-Type: <em class="header-value">application/json</em></span>
+                <span class="header-key">x-auth-token: <em class="header-value">your-auth-token</em></span>
+              </div>
             </div>
           </div>
         </div>

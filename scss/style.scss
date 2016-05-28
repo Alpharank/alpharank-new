@@ -235,9 +235,9 @@ h2 {
 // Block 3 Timeline
 /*==========================================================*/
 .sect-timeline {
-	background: #e3e3e3;
+	background: #3B5997;
 	.h-title {
-		color: #22313F;;
+		color: #fff;
 	}
 	h4 {
 
@@ -280,6 +280,7 @@ h2 {
 	h4 {
 	    line-height: 1.4;
 	    text-align: center;
+	    color: #EAEAFF;
 	}
 	.year {
         display: block;
@@ -317,29 +318,29 @@ h2 {
 }
 .y2014 {
 	.year {
-		color: #2980b9;
+		color: #6DA8D6;
 	}
 	&:before,
 	&:after {
-		background: #2980b9;
+		background: #6DA8D6;
 	}
 }
 .y2015 {
 	.year {
-		color: #8e44ad;
+		color: #C05CEA;
 	}
 	&:before,
 	&:after {
-		background: #8e44ad;
+		background: #C05CEA;
 	}
 }
 .y2016 {
 	.year {
-		color: #e74c3c;
+		color: #F97163;
 	}
 	&:before,
 	&:after {
-		background: #e74c3c;
+		background: #F97163;
 	}
 }
 /*==========================================================*/
@@ -579,6 +580,24 @@ h2 {
     	text-transform: uppercase;
     	font-style: normal;
     }
+}
+.c-header {
+	padding-bottom: 2px;
+	.header-title {
+	    display: block;
+	    padding-bottom: 8px;
+	    margin: 10px 0;
+	    font-weight: 900;
+	    color: #fff;
+	    border-bottom: 1px solid #525252;
+	    letter-spacing: 0.5px;
+	}
+	.header-key {
+		display: block;
+		.header-value {
+			color: #13B28B;
+		}
+	}
 }
 .r-actions {
     margin-bottom: 35px;
