@@ -153,21 +153,21 @@ function initMap() {
       featureType: 'road',
       elementType: 'geometry',
       stylers: [
-        { color: '#282828' },
+        { color: '#22313F' },
         { weight: 1.6 }
       ]
     }, {
       featureType: 'road',
       elementType: 'labels',
       stylers: [
-        { color: '#656565' },
+        { color: '#7090AF' },
         { weight: 0.6 },
       ]
     }, {
       featureType: 'landscape',
       elementType: 'geometry',
       stylers: [
-        { color: '#333333'}
+        { color: '#1A252F'}
       ]
     },
     {
@@ -184,3 +184,6 @@ function initMap() {
     title: 'Silicon Valley'
   });
 }
+
+
+// Login
