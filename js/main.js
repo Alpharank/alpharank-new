@@ -135,6 +135,8 @@ window.onload = function() {
   canvasDots();
 };
 
+
+
 /* Google Maps */
 
 function initMap() {
@@ -186,4 +188,6 @@ function initMap() {
 }
 
 
-// Login
+  
+
+

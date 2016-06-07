@@ -20,35 +20,37 @@
       
   </head>
   <body>
-    <header class="header clearfix">
-      <canvas class="dots-canvas"></canvas>
-      <video autoplay  poster="images/brian_ley.png" id="bgvid" loop>
-      <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-      <source src="videos/biran_ley_edited.webm" type="video/webm">
-      <source src="videos/biran_ley_edited.mp4" type="video/mp4">
-      </video>
-      <div class="vids-overlay"></div>
-      <nav>
-        <div class="main-nav fixed-top">
-          <ul>
-            <li>
-              <a href="/">
-                <img src="images/alpharank_logo_white.svg" width="218" height="25" alt="AlphaRank Logo">
+    <section class="hero-vd">
+      <header class="header clearfix">
+        <canvas class="dots-canvas"></canvas>
+        <video autoplay  poster="images/brian_ley.png" id="bgvid" loop>
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="videos/biran_ley_edited.mp4" type="video/mp4">
+        </video>
+        <div class="vids-overlay"></div>
+        <nav>
+          <div class="container">
+            <div class="main-nav clearfix">
+              <h1 class="logo-cont">
+                <a href="/">
+                    <img src="images/alpharank_logo_white.svg" width="218" height="25" alt="AlphaRank Logo">
                 </a>
-              </li>
-              <li><a class="nav-links" href="api.html">View API</a></li>
-              <li><a class="nav-links" href="#">About</a></li>
-              <li><a class="nav-links" href="#">Contact</a></li>
-              <li><a class="nav-links" href="login.html">Login</a></li>
-          </ul>
+              </h1>
+              <ul>
+                  <li><a class="bround" href="login.html">Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="hero-container">
+          <h2 data-sr="enter bottom, ease-in-out 100px">We map <i class="it">human</i> networks</h2>
+          <p data-sr="enter bottom, ease-in-out 100px wait 0.3s">Companies still build recommendation engines and analyze their customers by behaviors recorded in-store or online. Humans are active organisms that grow in networks. Alpharank allows you to predict which customers will matter over time without hours of data science and many complicated models.</p>
+          <div class="h-btn" data-sr="enter bottom, ease-in-out 100px, wait 0.6s"><a class="btn btn-primary" href="api.html"><i class="fa fa-code"></i> View API</a>
+          <a class="btn btn-primary" href="#contact_form"><i class="fa fa-phone"></i>Contact Us</a></div>
         </div>
-      </nav>
-      <div class="hero-container">
-        <h2 data-sr="enter bottom, ease-in-out 100px">We map <i class="it">human</i> networks</h2>
-        <p data-sr="enter bottom, ease-in-out 100px wait 0.3s">Companies still build recommendation engines and analyze their customers by behaviors recorded in-store or online. Humans are active organisms that grow in networks. Alpharank allows you to predict which customers will matter over time without hours of data science and many complicated models.</p>
-        <div  data-sr="enter bottom, ease-in-out 100px, wait 0.6s"><a class="btn btn-primary" href="api.html"><i class="fa fa-code"></i> View API</a><a class="btn btn-primary" href="#"><i class="fa fa-phone"></i>Contact Us</a></div>
-      </div>
-    </header>
+      </header>
+    </section>
+
 
     <section class="sect-hiw">
       <div class="container">
@@ -1598,7 +1600,7 @@
       </div>
     </section>
 
-    <section class="sect-contacts">
+    <section id="testy" class="sect-contacts">
       <div class="container">
         <div class="map-cont">
           <div id="map"></div>
@@ -1663,8 +1665,19 @@
     <script src="js/scrollreveal.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-      $(function() {
-        window.sr = new scrollReveal();
+      $(document).ready(function(){
+        // window.sr = new scrollReveal();
+        // Contact Scroll
+        $('.h-btn a[href^="#"]').on('click',function (e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+           $('html, body').stop().animate({
+               'scrollTop': $target.offset().top
+          }, 900, 'swing');
+        });
       });
 
     </script>

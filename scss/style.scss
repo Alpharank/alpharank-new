@@ -7,8 +7,6 @@
 // Global
 /*==========================================================*/
 html, body {
-	overflow: auto;
-	width: 100%;
 	height: 100%;
 }
 body {
@@ -72,9 +70,25 @@ h2 {
 .sect-clients,
 .sect-timeline,
 .sect-contacts {
+	position: relative;
     background: #22313F;
+    		&:after {
+			    content: '';
+			    display: block;
+			    position: relative;
+			    bottom: -80px;
+			    margin: 0 auto;
+			    width: 90%;
+			    height: 1px;
+			    background: rgba(255, 255, 255, 0.2);	
+	    }
 }
 
+.hero-vd {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
 .header {
 	position: relative;
 	width: 100%;
@@ -84,12 +98,17 @@ h2 {
 // Navigation
 /*==========================================================*/
 .main-nav {
-	position: fixed;
-	float: left;
-	margin-top: 2rem;
+	position: relative;
+	margin-top: 5rem;
 	z-index: 1;
+	h1 {
+		float: left;
+		margin: 0;
+	}
 	ul {
-		list-style: none;
+	    float: right;
+	    list-style: none;
+	    margin: 4px 0 0;
 		li {
 			.nav-links {
 				display: block;
@@ -194,6 +213,12 @@ h2 {
 	stroke-dashoffset: -509;
 	fill: transparent;
     animation: circle-lines 2s linear forwards;
+}
+.sect-clients {
+	padding: 80px 0 50px;
+	&:after {
+		bottom: -50px;
+	}
 }
 .sect-company {
 	padding: 25px 0;
@@ -349,11 +374,16 @@ h2 {
 .sect-contacts {
 	color: #fff;
     .h-title {
+    	margin-bottom: 20px;
     }
 	h3 {
+		margin-top: 0;
 		margin-bottom: 30px;
 		text-align: center;
 		font-size: 3.4rem;
+	}
+	&:after {
+		display: none;
 	}
 }
 #contact_form {
@@ -532,6 +562,7 @@ h2 {
 	API page
 /*===============================================================*/
 .sect-api {
+	padding: 15px 0 50px;
 	color: #fff;
 	.api-title {
 	    font-size: 30px;
@@ -633,7 +664,7 @@ h2 {
     text-align: center;
 }
 #lr-form {
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	max-width: 450px;
 	.form-control {
 	    height: 50px;
@@ -678,6 +709,14 @@ h2 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+    	opacity: 0.8;
+    	color: #fff;
+    	text-decoration: none;
+    }
 }
 .rememberme-box {
 	label {
