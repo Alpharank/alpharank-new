@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <META NAME="robots" CONTENT="noindex">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1537,7 +1538,7 @@
                 <img src="images/store.svg" alt="">
               </div>
               <span class="year">2015</span>
-              <h4>Retailers Retailers show interest in finding their most influential brand ambassadors</h4>
+              <h4>Retailers show interest in finding their most influential brand ambassadors</h4>
             </div>
           </li>
           <li>
@@ -1600,7 +1601,7 @@
       </div>
     </section>
 
-    <section id="testy" class="sect-contacts">
+    <section class="sect-contacts">
       <div class="container">
         <div class="map-cont">
           <div id="map"></div>
@@ -1615,10 +1616,10 @@
         </div>
         <h2 class="h-title">Contact Us</h2>
         <div class="row">
-          <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          <div class="col-xs-12 col-lg-8 col-lg-offset-2">
             <h3>Ready to analyze your customer network?</h3>
 
-            <form role="form" id="contact_form" name="contact_form">
+            <form role="form" id="contact_form" name="contact_form" method="post" action="mail/contactForm.php">
               <div class="row">
                 <div class="col-xs-6 col-sm-6">
                   <div class="form-group">
@@ -1642,7 +1643,7 @@
                 </div>
                 <div class="col-xs-12">
                   <div class="form-group">
-                     <textarea rows="5" class="form-control" id="message" placeholder="Message"></textarea>
+                     <textarea rows="5" class="form-control" id="message" name="message" placeholder="Message"></textarea>
                   </div>
                 </div>
               </div>
@@ -1668,7 +1669,7 @@
       $(document).ready(function(){
         // window.sr = new scrollReveal();
         // Contact Scroll
-        $('.h-btn a[href^="#"]').on('click',function (e) {
+        $('a[href^="#"]').on('click',function (e) {
             e.preventDefault();
 
             var target = this.hash;

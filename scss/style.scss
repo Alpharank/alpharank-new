@@ -24,9 +24,16 @@ h5 {
 	font-family: 'Montserrat', sans-serif;
 }
 h2 {
-    font-size: 58px;
+    font-size: 38px;
     font-weight: 700;
     letter-spacing: -2px;
+}
+a {
+	color: #13B28B;
+	&:hover {
+		color: #13B28B;
+		text-decoration: underline;
+	}
 }
 .btn-primary {
     margin: 10px;
@@ -64,7 +71,7 @@ h2 {
 .sect-timeline,
 .sect-contacts,
 .sect-api {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 .sect-hiw,
 .sect-clients,
@@ -87,28 +94,31 @@ h2 {
 .hero-vd {
 	overflow: hidden;
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 .header {
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 /*==========================================================*/
 // Navigation
 /*==========================================================*/
 .main-nav {
 	position: relative;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	z-index: 1;
 	h1 {
-		float: left;
+		display: block;
+		text-align: center;
 		margin: 0;
 	}
 	ul {
-	    float: right;
+		display: block;
 	    list-style: none;
-	    margin: 4px 0 0;
+	    margin: 15px 0 0;
+	    padding-left: 0;
+	    text-align: center;
 		li {
 			.nav-links {
 				display: block;
@@ -135,12 +145,13 @@ h2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
  	background: url('../images/brian_ley.png') no-repeat;
 	background-size: cover;
 	transition: 1s opacity;
+    width: auto;
+	height: 100%;
 }
 .vids-overlay {
     position: absolute;
@@ -155,18 +166,14 @@ h2 {
 // Hero Text
 /*==========================================================*/
 .hero-container {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-    max-width: 900px;
-    margin: 0 auto;
+	position: relative;
+    margin: 35px auto;
+    padding: 0 15px;
     text-align: center;
     color: #fff;
-    transform: translateY(-50%);
     p {
     	margin: 27px 0;
-    	font-size: 2.4rem;
+    	font-size: 1.6rem;
     }
 }
 .it {
@@ -215,7 +222,7 @@ h2 {
     animation: circle-lines 2s linear forwards;
 }
 .sect-clients {
-	padding: 80px 0 50px;
+	padding: 35px 0;
 	&:after {
 		bottom: -50px;
 	}
@@ -236,9 +243,10 @@ h2 {
 .h-title {
 	position: relative;
     margin: 0 auto 60px;
-    width: 600px;
+    width: auto;
     text-align: center;
     color: #fff;
+    font-size: 3rem;
 }
 
 /*==========================================================*/
@@ -270,7 +278,12 @@ h2 {
     list-style: none;
 	li {
 		float: left;
-		width: 25%;
+		width: 100%;
+		.year-title {
+			&:before {
+				display: none;
+			}
+		}
 	}
 	li:first-child {
 		.year-title {
@@ -380,7 +393,7 @@ h2 {
 		margin-top: 0;
 		margin-bottom: 30px;
 		text-align: center;
-		font-size: 3.4rem;
+		font-size: 1.6rem;
 	}
 	&:after {
 		display: none;
@@ -405,18 +418,19 @@ h2 {
 	position: relative;
 }
 #map {
-	margin-bottom: 50px;
+	margin-bottom: 0;
 	width: 100%;
 	height: 450px;
 	background: #ccc;
 }
 
 .offices {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    width: 35%;
-    transform: translateY(-50%);
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin: -30px 0 50px;
     padding: 10px 0px 25px;
     color: #fff;
     background: #2A4156;
@@ -424,6 +438,7 @@ h2 {
     	margin: 0;
     }
     h4 {
+    	margin-top: 0;
     	font-weight: 700;
     }
 	p {
@@ -588,6 +603,8 @@ h2 {
 	    display: block;
 	    padding: 14px 0;
 	    color: #13B28B;
+        word-break: break-all;
+    	line-height: 2.2;
     }
     .c-method {
     	padding: 6px 12px;
@@ -656,9 +673,9 @@ h2 {
 }
 .lr-cont {
     margin: 0 auto;
-    padding: 50px 30px;
-    width: 600px;
-    height: 600px;
+    padding: 15px 20px;
+    width: 90%;
+    height: auto;
     background: #1f2c37;
     border-radius: 10px;
     text-align: center;
@@ -766,13 +783,15 @@ h2 {
 }
 .fp-left,
 .signup-right {
-    float: left;
+    float: none;
+    margin-bottom: 10px;
+    display: block;
     color: #fff;
     font-size: 1.4em;
     font-family: Montserrat, sans-serif;
 }
 .signup-right {
-	float: right;
+    float: none;
 	a {
 		color: #13B28B;
 	}
@@ -939,3 +958,9 @@ input:-webkit-autofill {
 		
 	}
 }
+
+
+/*===============================================================*
+	Media Queries
+/*===============================================================*/
+@import "media-queries";
