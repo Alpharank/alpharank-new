@@ -1666,7 +1666,7 @@
     <script src="js/scrollreveal.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-      $(document).ready(function(){
+      $(function() {
         // window.sr = new scrollReveal();
         // Contact Scroll
         $('a[href^="#"]').on('click',function (e) {
