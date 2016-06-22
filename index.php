@@ -1647,6 +1647,10 @@
                   </div>
                 </div>
               </div>
+              <div class="form-group honeypot">
+                  <input type="hidden" class="form-control" id="hpot" value="http://" name="hpot">
+                  <input type="hidden" class="form-control" id="huch" name="huch">
+              </div>
                <button type="submit" class="btn btn-primary" id="submit" name="submit">Submit</button>
             </form>
           </div>

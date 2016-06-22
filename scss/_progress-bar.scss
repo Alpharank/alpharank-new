@@ -3,7 +3,7 @@
   margin: 40px auto;
   width: 100%;
   height: 10px;
-  background: #3c3c3e;
+  background: $darkerblue;
   border-radius: 5px;
   .progress {
     width: 80%;
@@ -16,7 +16,7 @@
     margin-left: -40px;
     top: -65px;
     left: 80%;
-    background: #3c3c3e;
+    background: $darkerblue;
     padding: 15px 17px;
     color: $green;
     font-size: 1.8em;
@@ -33,7 +33,7 @@
     position: absolute;
     pointer-events: none;
     border-color: rgba(60, 60, 62, 0);
-    border-top-color: #3c3c3e;
+    border-top-color: $darkerblue;
     border-width: 20px;
     margin-left: -20px;
   }

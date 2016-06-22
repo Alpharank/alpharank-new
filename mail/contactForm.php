@@ -18,17 +18,23 @@
 		$huch == "" &&
 		!($user_email)
 	  ){
-		  	$email_add = "ninojamesquibido@gmail.com";
-			$subject = "From AlphaRank Website Contat Form";
-			$body = "From: $name \n Phone: $phone \n Message: $message";
+		  	$email_add = "brianley@alpharank.io";
+		  // brian email brianley@alpharank.io
+			$subject = "From AlphaRank Website Contact Form";
+			$body = "\n From:  ". $name . 
+					"\n Email Address:  ". $email .
+					"\n Phone:  ". $phone .
+					"\n Company:  ". $company .
+					"\n\n Message: ". $message;
 			$headers = "From :".$email;
 			mail($email_add, $subject, $body) or die("Error!");
-			echo 'Thank you';
-			//header("Location:http://botjames.com/");
+			header("Location:http://www.alpharank.io/thank-you.html");
+			exit;
 		}
 	else{
-		header("Location:http://botjames.com/");
-		echo "We encountered an error sending your mail";
+		header("Location:http://www.alpharank.io/sending-error.html");
+		
+		exit;
 	}
 
 ?>

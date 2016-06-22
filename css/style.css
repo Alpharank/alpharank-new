@@ -10864,7 +10864,7 @@ a {
 	Inner Pages
 /*===============================================================*/
 .page {
-  background: #444; }
+  background: #22313F; }
 
 .page .header {
   height: auto; }
@@ -10967,7 +10967,7 @@ a {
   margin: 40px auto;
   width: 100%;
   height: 10px;
-  background: #3c3c3e;
+  background: #1f2c38;
   border-radius: 5px; }
   .progress-bar .progress {
     width: 80%;
@@ -10979,7 +10979,7 @@ a {
     margin-left: -40px;
     top: -65px;
     left: 80%;
-    background: #3c3c3e;
+    background: #1f2c38;
     padding: 15px 17px;
     color: #13B28B;
     font-size: 1.8em;
@@ -10995,7 +10995,7 @@ a {
     position: absolute;
     pointer-events: none;
     border-color: rgba(60, 60, 62, 0);
-    border-top-color: #3c3c3e;
+    border-top-color: #1f2c38;
     border-width: 20px;
     margin-left: -20px; }
 
@@ -11047,7 +11047,7 @@ a {
   margin-bottom: 15px;
   padding: 40px 15px;
   text-align: center;
-  background: #323234; }
+  background: #1f2c38; }
   .big-data-box span {
     font-size: 4em;
     font-family: 'Raleway', sans-serif;
@@ -11075,7 +11075,7 @@ a {
   padding-left: 0; }
   .merchant-lists .mlist {
     display: inline-block;
-    background: #323234;
+    background: #1f2c38;
     color: #fff;
     margin: 10px 10px 10px 0;
     padding: 15px;
@@ -11156,14 +11156,14 @@ a {
   padding: 50px 0;
   width: 100%;
   height: auto;
-  background: #19232d; }
+  background: #22313F; }
 
 .lr-cont {
   margin: 0 auto;
   padding: 15px 20px;
   width: 90%;
   height: auto;
-  background: #1f2c37;
+  background: #2c3f50;
   border-radius: 10px;
   text-align: center; }
 

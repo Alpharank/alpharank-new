@@ -3,7 +3,7 @@
     margin-bottom: 15px;
     padding: 40px 15px;
     text-align: center;
-    background: #323234;
+    background: $darkerblue;
     span {
 	    font-size: 4em;
 	    font-family: 'Raleway', sans-serif;
@@ -34,7 +34,7 @@
     padding-left: 0;
     .mlist {
 	    display: inline-block;
-	    background: #323234;
+	    background: $darkerblue;
 	    color: #fff;
 	    margin: 10px 10px 10px 0;
 	    padding: 15px;
