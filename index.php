@@ -44,7 +44,7 @@
           </div>
         </nav>
         <div class="hero-container">
-          <h2 data-sr="enter bottom, ease-in-out 100px">We map <i class="it">human</i> networks SendGrid</h2>
+          <h2 data-sr="enter bottom, ease-in-out 100px">We map <i class="it">human</i> networks</h2>
           <p data-sr="enter bottom, ease-in-out 100px wait 0.3s">Companies still build recommendation engines and analyze their customers by behaviors recorded in-store or online. Humans are active organisms that grow in networks. Alpharank allows you to predict which customers will matter over time without hours of data science and many complicated models.</p>
           <div class="h-btn" data-sr="enter bottom, ease-in-out 100px, wait 0.6s"><a class="btn btn-primary" href="api.html"><i class="fa fa-code"></i> View API</a>
           <a class="btn btn-primary" href="#contact_form"><i class="fa fa-phone"></i>Contact Us</a></div>
